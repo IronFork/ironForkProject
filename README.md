@@ -17,3 +17,11 @@ Inventaire des fichiers :
   -matlab (dossier contenant l'ensemble du code pour la trajectoire du robot)
   -fichiers_stl (dossier contenant tous les fichiers STL pour l'impression en 3D des pièces du robot)
   -moteurs (documentation sur les moteurs)
+  
+  
+Notice de montage : 
+
+
+Notice d'utilisation des fichiers matlab : 
+
+
