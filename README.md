@@ -77,7 +77,26 @@ III - EXPLICATION DU CODE SOURCE
 
 a) La partie mécanique
 
+Le nombre de liaisons
+
+Le bâti 
+
+La tourelle
+
+Le bras et l'avant bras 
+
+La pince
+
+Le bol
+
+
 b) La partie programmation
+
+Le choix des composants
+
+La trajectoire choisie 
+
+Explication des fichiers 
 
 
 IV - PISTES D'AMELIORATION
