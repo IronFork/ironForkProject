@@ -9,18 +9,25 @@ READ ME
 PLAN : 
 
 I - INTRODUCTION
+
   a) Présentation
+  
   b) Objectifs du projet
   
 II - MONTER LE ROBOT
+
   a) Imprimer les pièces en 3D
+  
   b) Se procurer les moteurs
+  
   c) Se procurer les composants annexes 
   
 III - FAIRE FONCTIONNER LE ROBOT
 
 IV - EXPLICATION DU CODE SOURCE
+
   a) La partie mécanique 
+  
   b) La partie programmation
   
 V - PISTES D'AMÉLIORATION
