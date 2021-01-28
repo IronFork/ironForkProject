@@ -77,7 +77,8 @@ III - EXPLICATION DU CODE SOURCE
 
 a) La partie mécanique
 
-Le nombre de liaisons
+Le schéma cinématique : ; 
+Nous avons choisi un nombre de 4 pièces d'un point de vue cinématique. Elles sont reliées en série au bâti par cinq liaisons pivot. Une pivot verticale lie le BATI avec la TOURELLE, une pivot horizontale lie la TOURELLE au BRAS, une pivot horizontale lie le BRAS à l'AVANT-BRAS, et une liaison pivot horizontale lie l'AVANT-BRAS à la PINCE. 
 
 Le bâti 
 
