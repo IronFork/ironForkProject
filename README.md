@@ -93,11 +93,13 @@ Le bras et l'avant-bras :
 Le bras est relié à l'avant-bras par une liasion pivot motorisée par un servomoteur Dynamixel. Cette laison contribue grandement au mouvement vertical de bas en haut de la cuillère. Un adaptateur vissé au bras par des vis à bois permet de fixer le moteur. 
 
 L'avant-bras et la pince : 
-L'avant-bras et la pince sont reliés entre eux par une liaison pivot motorisée par un servomoteur Dynamixel. 
+L'avant-bras et la pince sont reliés entre eux par une liaison pivot motorisée par un servomoteur Dynamixel. Cette liaison permet d'effectuer un mouvement vertical de précison, à la manière d'un poignet. Un adaptateur vissé à l'avant-bras permet de fixer le moteur. 
 
-La pince
+La pince : 
+La pince présente une fente ainsi qu'un trou. Ce trou permet d'y placer un insert de filletage, et la fente permet d'y glisser un manche de cuillère. Ainsi, avec une vis de pression, la cuillère peut être bloquée dans la fente. L'avantage de ce système est qu'il permet l'utilisation d'une cuillère quelconque. 
 
-Le bol
+Le bol : 
+Un bol imprimé en 3D est fixé sur le support. ce bol a une forme particulière qui permet à la nourriture d'être centrée dans la zone de pelletage. De plus, le rebord avancé peu haut et le rebord éloigné élevé permettent une introduction de la cuillère aisée, et un raclage facilité. L'avantage de ce système est qu'il permet de n'avoir qu'un seul et unique geste de peletage pour le robot. L'inconvénient est le côté sanitaire : il faut imprimer le bol en PET, et les stries de l'impression 3D peuvent occasionner des copeaux de plastiques dans la nourriture lors du raclage. 
 
 
 b) La partie programmation
