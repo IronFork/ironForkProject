@@ -77,14 +77,23 @@ III - EXPLICATION DU CODE SOURCE
 
 a) La partie mécanique
 
-Le schéma cinématique : ; 
+Le schéma cinématique : 
 Nous avons choisi un nombre de 4 pièces d'un point de vue cinématique. Elles sont reliées en série au bâti par cinq liaisons pivot. Une pivot verticale lie le BATI avec la TOURELLE, une pivot horizontale lie la TOURELLE au BRAS, une pivot horizontale lie le BRAS à l'AVANT-BRAS, et une liaison pivot horizontale lie l'AVANT-BRAS à la PINCE. 
+Ce choix de 4 pièces et de cinq liaisons pivot nous permet de positionner la PINCE à n'importe quel endroit dans l'espace, et de réaliser un maximum de mouvements en gardant la PINCE à l'horizontal (ce qui permet de déplacer une cuillère sans renverser son contenu). Ce choix de cinématique permet des mouvements fluides et précis. Référez-vous au fichier STL de l'assemblage complet pour vous représenter l'architecture du robot. 
 
-Le bâti 
+La tourelle : 
+La tourelle est au bâti par une liason pivot verticale. Cette liaison permet au robot de tourner sur lui même et de déplacer la cuillère de manière grossière latéralement de gauche à droite. 
+Cette liasion qui est la première est la seule à supporter toute la structure du robot, et subit donc beaucoup d'efforts. Il y a également beaucoup de forttements, de par l'appui de la tourelle sur le bâti. Nous avons choisi d'utiliser un coussinet à collerette entre le bati et la tourelle pour minimiser les frottements. La liasion est motorisée par un servomoteur Dynamixel positionné à quelques centimètres de la liaison, et relié par une liaison poulie-couroie. Cela permet de résoudre le problème de coaxialité du moteur avec la liasion, et d'écentuels efforts supportés par l'axe du moteur.
 
-La tourelle
+La tourelle et le bras : 
+La tourelle et le bras sont reliés par une liaison pivot horizontale. Cette liaison contribue grandement au mouvement d'avant en arrière de la cuillère. 
+Encore une fois, cette liasion supporte une bonne partie de la structure du robot, surtout quand celui-ci est étendu. Dans ce cas là, le couple dans l'axe de la liaison est particulièrement élevé. C'est pourquoi nous avons choisi de placer non pas un, mais deux servomoteurs Dynamixel en parallèle de manière à pouvoir axionner cette liasion avec une puissance suffisante. Deux adaptateurs sont vissés au bâti avec des vis à bois permettent de fixer les servomoteurs. 
 
-Le bras et l'avant bras 
+Le bras et l'avant-bras : 
+Le bras est relié à l'avant-bras par une liasion pivot motorisée par un servomoteur Dynamixel. Cette laison contribue grandement au mouvement vertical de bas en haut de la cuillère. Un adaptateur vissé au bras par des vis à bois permet de fixer le moteur. 
+
+L'avant-bras et la pince : 
+L'avant-bras et la pince sont reliés entre eux par une liaison pivot motorisée par un servomoteur Dynamixel. 
 
 La pince
 
