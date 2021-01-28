@@ -20,7 +20,7 @@ Ouvrir le dossier fichiers_stl. Ce dossier contient des sous-dossiers comprenant
 
 
 2- Se procurer les moteurs : 
-Vous aurez besoin de cinq moteurs dynamixel XL430-W250-T
+Vous aurez besoin de cinq moteurs dynamixel XL430-W250-T.
 documentation technique sur github : https://github.com/ROBOTIS-GIT/emanual/blob/master/docs/en/dxl/x/xl430-w250.md
 
 
