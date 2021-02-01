@@ -108,7 +108,7 @@ III - EXPLICATION DU CODE SOURCE
 a) La partie mécanique
 
 Le schéma cinématique : 
-Nous avons choisi un nombre de 4 pièces d'un point de vue cinématique. Elles sont reliées en série au bâti par cinq liaisons pivot. Une pivot verticale lie le BATI avec la TOURELLE, une pivot horizontale lie la TOURELLE au BRAS, une pivot horizontale lie le BRAS à l'AVANT-BRAS, et une liaison pivot horizontale lie l'AVANT-BRAS à la PINCE. 
+Nous avons choisi un nombre de 5 pièces d'un point de vue cinématique. Elles sont reliées en série au bâti par cinq liaisons pivot. Une pivot verticale lie le BATI avec la TOURELLE, une pivot horizontale lie la TOURELLE au BRAS, une pivot horizontale lie le BRAS à l'AVANT-BRAS, et une liaison pivot horizontale lie l'AVANT-BRAS à la PINCE. 
 Ce choix de 4 pièces et de cinq liaisons pivot nous permet de positionner la PINCE à n'importe quel endroit dans l'espace, et de réaliser un maximum de mouvements en gardant la PINCE à l'horizontal (ce qui permet de déplacer une cuillère sans renverser son contenu). Ce choix de cinématique permet des mouvements fluides et précis. Référez-vous au fichier STL de l'assemblage complet pour vous représenter l'architecture du robot. 
 
 La tourelle : 
