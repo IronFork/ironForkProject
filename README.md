@@ -51,7 +51,37 @@ I - MONTER LE ROBOT
 Vous aurez besoin d'une imprimante 3D et de ... bobines de PLA. Le reste des composants à commander est indiqué dans les étapes suivantes. Le budget estimé est de 500€ environs. 
 
 a) Imprimer les pièces en 3D : 
-Ouvrir le dossier fichiers_stl. Ce dossier contient des sous-dossiers comprenant les fichiers STL des différents sous ensembles du bras robotique. Il contient également un fichier STL représentant le robot assemblé. Dans chaque sous-dossier est présent les fichiers STL de chaque pièce et un fichier STL représentant le sous-ensemble assemblé. 
+Ouvrir le dossier fichiers_stl. Ce dossier contient les fichiers STL de chaque pièce du robot, organisées en sous-ensembles. Un sous-dossier nommé "assemblages" contient les fichiers STL des différents sous-ensembles, et de l'assemblage complet. 
+
+Liste des pièces à imprimer en 3D : 
+
+Pour le socle : 
+  - 3 sous-socles différents (c'est le plancher du robot, les 3 sous-socles sont sur le même ficher STL)
+  - 1 bol
+  - 1 socle (en forme de petite tablette)
+  - 1 adaptateur socle-moteur (permet de fixer le moteur sous le socle)
+  - 1 poulie socle (poulie fixée sur l'axe moteur)
+  
+Pour la Tourelle : 
+  - 1 Tourelle (placée en liaison pivot avec le socle, elle soutient le bras)
+  - 1 poulie tourelle ( poulie fixée dans l'axe de la tourelle et reliée à la poulie socle par une courroie)
+  - 2 adaptateurs tourelle-moteurs (permettent de fixer 2 moteurs sur la tourelle)
+  
+Pour le bras : 
+  - 1 bras Tourelle (c'est le bras relié à la tourelle en pivot)
+  - 1 adaptateur bras-moteur (permet de fixer le moteur sur le bras)
+  
+Pour l'avant-bras : 
+  - 1 avant-bras (ressemble au bras-tourelle mais est légèrement différent)
+  - 1 adaptateur avant-bras-moteur (permet de fixer le moteur)
+  
+Pour la pince : 
+  - 1 pince 
+  
+  
+Pour l'assemblage, référez-vous aux fichiers STL représentant les sous-ensembles du robot. 
+
+
 
 b) Se procurer les moteurs : 
 Vous aurez besoin de cinq moteurs dynamixel XL430-W250-T.
