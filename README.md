@@ -89,11 +89,12 @@ documentation technique sur github : https://github.com/ROBOTIS-GIT/emanual/blob
 
 
 c) Se procurer les composants annexes : 
-voir fichier référence composants annexes. (visserie, fils électriques, rasberry pi, carte de programmation, etc... )
+voir notice. (visserie, fils électriques, rasberry pi, carte de programmation, etc... )
 
 d) Assembler le robot : 
 Vous devez vous référer au dossier fichiers_stl pour voir le rôle de chaque composant au sein de l'assemblage complet. 
 Référez-vous également au schéma électrique pour les différents branchements. 
+Référez-vous à la notice pour vous aider
 
 L'assemblage du robot est maintenant terminé. 
 
