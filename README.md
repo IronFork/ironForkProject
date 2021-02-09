@@ -104,7 +104,14 @@ L'assemblage du robot est maintenant terminé.
 
 II - FAIRE FONCTIONNER LE ROBOT  
 
-[à compléter, en attendant, cf notice.]
+Version 1 du robot 
+
+La trajectoire est programmée par l'ensemble des fichiers matlab 
+puis est lue par le programme IronFork.c
+
+Version 2 du robot 
+
+Compiler IronForkV3.c et l'executer. Le robot pourra apprendre sa trajectoire pendant une phase de teaching et ensuite la répeter. 
 
 
 III - EXPLICATION DU CODE SOURCE 
@@ -138,11 +145,8 @@ Un bol imprimé en 3D est fixé sur le support. ce bol a une forme particulière
 
 b) La partie programmation
 
-Le choix des composants
+cf commentaires
 
-La trajectoire choisie 
-
-Explication des fichiers 
 
 
 IV - PISTES D'AMELIORATION
