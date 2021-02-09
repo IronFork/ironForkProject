@@ -104,7 +104,7 @@ L'assemblage du robot est maintenant terminé.
 
 II - FAIRE FONCTIONNER LE ROBOT  
 
-[A COMPLÉTER]
+[à compléter, en attendant, cf notice.]
 
 
 III - EXPLICATION DU CODE SOURCE 
