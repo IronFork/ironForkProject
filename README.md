@@ -147,4 +147,11 @@ Explication des fichiers
 
 IV - PISTES D'AMELIORATION
 
+- sécurité, détection d'erreur informatique
+- tests en conditions réeelles (personne en situation de handicap)
+- améliorer le système de fixation de la cuillère 
+- réduire le volume
+- trouver des composants moins cher
+- reconnaissance faciale
+- ...
 
