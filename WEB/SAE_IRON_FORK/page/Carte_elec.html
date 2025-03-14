@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Iron_Fork</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="The Umbrella Academy MM01">
+    <meta name="author" content="Bourel Rémi">
+    <meta name="description" content="Projet MM01 The Umbrella Academy">
+    <link rel="icon" type="image/png" href="../icon/logo_mini.png" />
+</head>
+<body id="retour">
+<div class="conteneur">
+
+
+
+    <header >
+        <table>
+            <tr>
+
+                <th id="texte1">Iron Fork</th>
+            </tr>
+        </table>
+
+
+    </header>
+
+    <nav class="">
+        <ul >
+            <li >
+                <a href="../index.html">Accueil</a>
+            </li>
+            <li>
+                <a href="intro.html">Introduction</a>
+            </li>
+            <li class="deroulant"><a href="#">Informatique</a>
+                <ul class="sous">
+                    <li >
+                        <a href="OS.html">OS banapi/raspberry et logiciel utilisé dessus</a>
+                    </li>
+                    <li >
+                        <a href="Base_de_donnee.html">Base de donnée</a>
+                    </li>
+                    <li >
+                        <a href="Prog.html">Programmation</a>
+                    </li>
+                    <li >
+                        <a href="Appli.html">Application</a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="deroulant"><a href="#">Frabrication</a>
+                <ul class="sous">
+                    <li >
+                        <a href="Piece_3D.html">Pièces 3D</a>
+                    </li>
+                    <li >
+                        <a href="Visserie.html">Visserie</a>
+
+                    </li>
+                    <li >
+                        <a href="Montage.html">Montage du bras</a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="deroulant"><a href="#">Electronique</a>
+                <ul class="sous">
+                    <li >
+
+                        <a href="Piece_elec.html">Pièces électronique</a>
+                    </li>
+                    <li >
+                        <a href="Alim.html">Alimentation</a>
+                    </li>
+                    <li >
+                        <a href="Carte_elec.html">Carte electronique</a>
+                    </li>
+
+
+                </ul>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <div class="bloc_texte">
+        <p>
+        <h2 >A quoi sert la carte de régulation ?</h2>
+        <br>
+        <br>
+        Afin de réduire le nombre de fil apparent, et de réduire les problème lié au différente alimentation, nous avons choisis de n'avoir qu'une seule alimentation.
+        Notre seul problème, nous avons en réaliter besoin de 12V et de 5V. C'est pour cela que nous avons chois de réaliser une carte électronique qui sera capable de transformer le 12V en 5V
+        </p>
+
+    </div>
+    <div class="bloc_texte">
+        <p>
+        <h2 >De quoi avez vous besoin pour réaliser cette carte ?</h2>
+        <br>
+        <br>
+        Pour al réalisation, vous aurez besoin de :
+        <p class="tabulation">- Votre carte électronique (vous verez en dessous comment l'avoir)</p>
+        <p class="tabulation">- 4 borniers</p>
+        <img src="../img/bornier.png" class="img_PCB"/>
+        <p class="tabulation">- un regulateur 12V -> 5V avec 5W de puissance (TSR 2-2450)</p>
+        <img src="../img/traco.png" class="img_PCB"/>
+        <p class="tabulation">- 2 LED (couleur au choix)</p>
+        <img src="../img/LED.png" class="img_PCB"/>
+        <p class="tabulation">- 2 résistance (1 de 1 kOhm 1/4W et 1 de 220 Ohm 1/4W)</p>
+        <p class="tabulation">- 4 condensateur (2 de 100 nF et 2 de 10 µF)</p>
+        <p class="tabulation">- 1 connecteur male 2 rangé et ...pin avec un pas de 2.54mm</p>
+        <img src="../img/pin_male.png" class="img_PCB"/>
+        <br><br>
+        Tous les composants se trouve également dans <a href="Piece_elec.html" class="lien_page"> " Pièces électronique "</a>
+
+
+
+    </div>
+
+    <div class="bloc_texte">
+        <p>
+        <h2 >Quel sont les différents fichiers ?</h2>
+        <br>
+        <br>
+        Si vous souhaitez modifier les fichiers du circuit, vous trouverez ci-dessous les fichier Schéma et Board pour Eagle. Eagle est un logciel payant mais qui dispose d'une license gratuite pour usage personnel (non comercial)
+        <br>
+        <p class="tabulation">Schéma : </p>
+        <img src="../img/sch.png" class="image_step"/>
+        <a href="../PCB/carte_pui.sch" download><img src="../img/fichier.png" class="img_PCB"/><br></a>
+        <br>
+        <p class="tabulation">Board : </p>
+        <img src="../img/brd.png" class="image_step"/>
+        <a href="../PCB/carte_pui.brd.stp" download><img src="../img/fichier.png" class="img_PCB"/><br></a>
+        <br><br>
+        Si vous souhaiter juste usiner, vous devrez avoir les fichier gerbers. Pour se faire, vous pouvez télécherger ce zip :
+        <a href="../GERBERS/gerbers.zip" download><img src="../img/zip.jpg" class="img_PCB"/><br></a>
+        </p>
+
+
+    </div>
+    <div class="bloc_texte">
+        <p>
+        <h2 >Où pouvez vous usiner cette carte ?</h2>
+        <br>
+        <br>
+        Pour usiner vos PCB, il existe plusieurs fournisseur comme : br
+        <p class="tabulation_simple">- SAFE PCB (que je vous recommande)</p>
+        <p class="tabulation_simple">- PCBWay</p>
+        </p>
+
+    </div>
+
+
+</div>
+</body>
+</html>
